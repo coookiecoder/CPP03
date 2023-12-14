@@ -1,5 +1,7 @@
+#ifndef CLAPTRAP_HPP
+# define CLAPTRAP_HPP
 
-#include <string>
+# include <string>
 
 class ClapTrap {
     private:
@@ -18,3 +20,5 @@ class ClapTrap {
         void beRepaired(unsigned int amount);
 		void showHitPoint(void);
 };
+
+#endif
