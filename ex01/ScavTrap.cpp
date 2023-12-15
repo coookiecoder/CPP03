@@ -37,7 +37,7 @@ ScavTrap & ScavTrap::operator=(const ScavTrap &copy) {
 void ScavTrap::attack(const std::string &target) {
 	if (this->HitPoints && this->EnergyPoints)
 	{
-		std::cout << "ClapTrap " << this->Name << " attacks " << target << ", causing " << this->AttackDamage << " points of damage!" << std::endl;
+		std::cout << "ScavTrap " << this->Name << " attacks " << target << ", causing " << this->AttackDamage << " points of damage!" << std::endl;
 		this->EnergyPoints--;
 	}
 }
