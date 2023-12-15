@@ -43,8 +43,8 @@ int main(void)
 	scavTrap.showHitPoint();
 	scavTrap.guardGate();
 
-	FragTrap fragTrap("SC4V-TP");
-	FragTrap fakeFragTrap("FAKE SC4V-TP");
+	FragTrap fragTrap("FR4G-TP");
+	FragTrap fakeFragTrap("FAKE FR4G-TP");
 	FragTrap anotherFakeFragTrap(fragTrap);
 
 	fakeFragTrap.showHitPoint();
